@@ -1,0 +1,37 @@
+{
+  "name": "banner-api",
+  "version": "0.0.1",
+  "description": "A utility that searches the student and faculty directory located at my.msstate.edu ",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "@types/puppeteer": "^0.13.9",
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tslint -p tslint.json && ./node_modules/.bin/tsc",
+    "start": "npm run build && node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devnetmsu/banner-api.git"
+  },
+  "keywords": [
+    "headless-chrome",
+    "node-module",
+    "automation"
+  ],
+  "author": "Nicolas Kleiderer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devnetmsu/banner-api/issues"
+  },
+  "homepage": "https://github.com/devnetmsu/banner-api#readme",
+  "dependencies": {
+    "puppeteer": "^1.0.0",
+    "xml-js": "^1.6.2"
+  }
+}
