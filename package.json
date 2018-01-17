@@ -1,7 +1,7 @@
 {
-  "name": "banner-api",
+  "name": "banner-crawler",
   "version": "0.0.1",
-  "description": "A utility that searches the student and faculty directory located at my.msstate.edu ",
+  "description": "A node module using Chrome Puppeteer to allow programmatic access to My Banner.",
   "main": "lib/index.js",
   "devDependencies": {
     "@types/node": "^9.3.0",
@@ -9,7 +9,6 @@
     "tslint": "^5.8.0",
     "typescript": "^2.5.3"
   },
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/tslint -p tslint.json && ./node_modules/.bin/tsc",
@@ -17,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devnetmsu/banner-api.git"
+    "url": "git+https://github.com/devnetmsu/banner-crawler.git"
   },
   "keywords": [
     "headless-chrome",
@@ -27,9 +26,9 @@
   "author": "Nicolas Kleiderer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/devnetmsu/banner-api/issues"
+    "url": "https://github.com/devnetmsu/banner-crawler/issues"
   },
-  "homepage": "https://github.com/devnetmsu/banner-api#readme",
+  "homepage": "https://github.com/devnetmsu/banner-crawler#readme",
   "dependencies": {
     "puppeteer": "^1.0.0",
     "xml-js": "^1.6.2"
