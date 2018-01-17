@@ -1,6 +1,6 @@
 {
   "name": "banner-crawler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node module using Chrome Puppeteer to allow programmatic access to My Banner.",
   "main": "lib/index.js",
   "devDependencies": {
